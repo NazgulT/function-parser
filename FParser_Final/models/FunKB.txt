@@ -1,0 +1,2 @@
+((F(Sally) == Frank) | (F(Sally) == Fred)) & ((F(Sally) == x) --> (R == x))
+QUERY: ((R == Frank) | (R == John))
