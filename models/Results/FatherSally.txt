@@ -1,0 +1,132 @@
+Parsing FOL sentence with Function Symbols!
+Processing file FunKB.txt
+Parsing expression with function symbols: (((F(Sally) == Frank) | (F(Sally) == Fred)) & ((F(Sally) == x) --> (R == x)))
+Domain D = [Sally, Frank, Fred]
+Variables = {x}
+Relational KB x = ((F(Sally, Frank) | F(Sally, Fred)) & (F(Sally, x) --> R(x)))
+CNF = ((F(Sally, Frank) | F(Sally, Fred)) & (R(x) | ~F(Sally, x)))
+Adding an arbitrary constant = Lisa
+Adding another arbitrary constant = Adam
+Terms =  {R, F(Sally)}
+Parsing time = 0.32933998107910156
+Successfully parsed an expression. 
+The output is written to propKB.txt
+Query = (R == Frank)
+STARTING INFERENCE
+Query = v
+processing several queries
+Running C2D (propositonal inference)
+Z = exp(3.8066624897703196) = 44.99999999999999
+Z(query) = exp(3.58351893845611) = 36.0
+P(v) = exp(-0.2231435513142097) = 0.8
+Elapsed time=1.045295244
+
+
+Parsing FOL sentence with Function Symbols!
+Processing file FunKB.txt
+Parsing expression with function symbols: (((F(Sally) == Frank) | (F(Sally) == Fred)) & ((F(Sally) == x) --> (R == x)))
+Domain D = [Sally, Frank, Fred]
+Variables = {x}
+Relational KB x = ((F(Sally, Frank) | F(Sally, Fred)) & (F(Sally, x) --> R(x)))
+CNF = ((F(Sally, Frank) | F(Sally, Fred)) & (R(x) | ~F(Sally, x)))
+Adding an arbitrary constant = Ellis
+Adding another arbitrary constant = Adam
+Terms =  {R, F(Sally)}
+Parsing time = 0.3282806873321533
+Successfully parsed an expression. 
+The output is written to propKB.txt
+Query = ((R == Frank) | (R == John))
+STARTING INFERENCE
+Query = v v r
+processing several queries
+Running C2D (propositonal inference)
+Z = exp(3.8066624897703196) = 44.99999999999999
+Z(query) = exp(3.58351893845611) = 36.0
+P(v) = exp(-0.2231435513142097) = 0.8
+Running C2D (propositonal inference)
+Z = exp(3.8066624897703196) = 44.99999999999999
+Z(query) = exp(3.1354942159291497) = 23.0
+P(r) = exp(-0.67116827384117) = 0.5111111111111112
+Elapsed time=1.158438292
+
+
+Parsing FOL sentence with Function Symbols!
+Processing file FunKB.txt
+Parsing expression with function symbols: (((F(Sally) == Frank) | (F(Sally) == Fred)) & ((F(Sally) == x) --> (R == x)))
+Domain D = [Frank, Sally, Fred]
+Variables = {x}
+Relational KB x = ((F(Sally, Frank) | F(Sally, Fred)) & (F(Sally, x) --> R(x)))
+CNF = ((F(Sally, Frank) | F(Sally, Fred)) & (R(x) | ~F(Sally, x)))
+Adding an arbitrary constant = Carol
+Adding another arbitrary constant = Lorde
+Terms =  {F(Sally), R}
+Parsing time = 0.3309307098388672
+Successfully parsed an expression. 
+The output is written to propKB.txt
+Query = (R ~= Frank)
+STARTING INFERENCE
+Query = !x
+peocessing one query
+Exception in thread "main" java.lang.RuntimeException: No result when parsing failed
+	at scala.sys.package$.error(package.scala:27)
+	at scala.util.parsing.combinator.Parsers$NoSuccess.get(Parsers.scala:176)
+	at scala.util.parsing.combinator.Parsers$NoSuccess.get(Parsers.scala:162)
+	at edu.ucla.cs.starai.forclift.languages.WeightedCNFParser.parseAtom(WeightedCNFParser.scala:34)
+	at edu.ucla.cs.starai.forclift.examples.FuncInference$.main(FuncInference.scala:56)
+	at edu.ucla.cs.starai.forclift.examples.FuncInference.main(FuncInference.scala)
+
+Parsing FOL sentence with Function Symbols!
+Processing file FunKB.txt
+Parsing expression with function symbols: (((F(Sally) == Frank) | (F(Sally) == Fred)) & ((F(Sally) == x) --> (R == x)))
+Domain D = [Fred, Sally, Frank]
+Variables = {x}
+Relational KB x = ((F(Sally, Frank) | F(Sally, Fred)) & (F(Sally, x) --> R(x)))
+CNF = ((F(Sally, Frank) | F(Sally, Fred)) & (R(x) | ~F(Sally, x)))
+Adding an arbitrary constant = Ellis
+Adding another arbitrary constant = Bob
+Terms =  {R, F(Sally)}
+Parsing time = 0.3329448699951172
+Successfully parsed an expression. 
+The output is written to propKB.txt
+Query = (F(Sally) == Danny)
+STARTING INFERENCE
+Query = q
+peocessing one query
+q=q
+Running C2D (propositonal inference)
+Z = exp(3.8066624897703196) = 44.99999999999999
+Z(query) = exp(3.044522437723423) = 21.0
+P(q) = exp(-0.7621400520468966) = 0.46666666666666673
+Elapsed time=1.037913009
+
+
+Parsing FOL sentence with Function Symbols!
+Processing file FunKB.txt
+Parsing expression with function symbols: (((F(Sally) == Frank) | (F(Sally) == Fred)) & ((F(Sally) == x) --> (R == x)))
+Domain D = [Fred, Sally, Frank]
+Variables = {x}
+Relational KB x = ((F(Sally, Frank) | F(Sally, Fred)) & (F(Sally, x) --> R(x)))
+CNF = ((F(Sally, Frank) | F(Sally, Fred)) & (R(x) | ~F(Sally, x)))
+Adding an arbitrary constant = Lorde
+Adding another arbitrary constant = Adam
+Terms =  {F(Sally), R}
+Parsing time = 0.32967638969421387
+Successfully parsed an expression. 
+The output is written to propKB.txt
+Query = (F(Danny) == Frank)
+STARTING INFERENCE
+Query = p
+peocessing one query
+q=p
+Running C2D (propositonal inference)
+Z = exp(3.8066624897703196) = 44.99999999999999
+Z(query) = exp(3.8066624897703196) = 44.99999999999999
+P(p) = exp(0.0) = 1.0
+Elapsed time=1.021348668
+
+
+
+
+
+
+

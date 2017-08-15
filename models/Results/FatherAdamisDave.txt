@@ -1,0 +1,102 @@
+Parsing FOL sentence with Function Symbols!
+Processing file FunKB.txt
+Parsing expression with function symbols: ((F(Adam) == Dave) & (F(x) ~= x))
+Domain D = [Dave, Adam]
+Variables = {x}
+Relational KB x = (F(Adam, Dave) & ~F(x, x))
+CNF = (F(Adam, Dave) & ~F(x, x))
+Adding an arbitrary constant = Amy
+Adding another arbitrary constant = Lorde
+Terms =  {F(Dave), F(Adam), F(Amy), F(Lorde)}
+Parsing time = 0.02846980094909668
+Successfully parsed an expression. 
+The output is written to propKB.txt
+Query = (F(Adam) == Dave)
+STARTING INFERENCE
+Query = z
+peocessing one query
+q=z
+Running C2D (propositonal inference)
+Z = exp(5.545177444479562) = 255.99999999999994
+Z(query) = exp(5.545177444479561) = 255.99999999999972
+P(z) = exp(-8.881784197001252E-16) = 0.9999999999999991
+Elapsed time=0.615890018
+
+
+Parsing FOL sentence with Function Symbols!
+Processing file FunKB.txt
+Parsing expression with function symbols: ((F(Adam) == Dave) & (F(x) ~= x))
+Domain D = [Dave, Adam]
+Variables = {x}
+Relational KB x = (F(Adam, Dave) & ~F(x, x))
+CNF = (F(Adam, Dave) & ~F(x, x))
+Adding an arbitrary constant = Lisa
+Adding another arbitrary constant = Lorde
+Terms =  {F(Adam), F(Dave), F(Lisa), F(Lorde)}
+Parsing time = 0.029047250747680664
+Successfully parsed an expression. 
+The output is written to propKB.txt
+Query = (F(Dave) == Dave)
+STARTING INFERENCE
+Query = y
+peocessing one query
+q=y
+Running C2D (propositonal inference)
+Z = exp(5.545177444479562) = 255.99999999999994
+Z(query) = exp(-Infinity) = 0.0
+P(y) = exp(-Infinity) = 0.0
+Elapsed time=0.6110575
+
+
+Parsing FOL sentence with Function Symbols!
+Processing file FunKB.txt
+Parsing expression with function symbols: ((F(Adam) == Dave) & (F(x) ~= x))
+Domain D = [Adam, Dave]
+Variables = {x}
+Relational KB x = (F(Adam, Dave) & ~F(x, x))
+CNF = (F(Adam, Dave) & ~F(x, x))
+Adding an arbitrary constant = Lisa
+Adding another arbitrary constant = Carol
+Terms =  {F(Adam), F(Lisa), F(Dave), F(Carol)}
+Parsing time = 0.02866387367248535
+Successfully parsed an expression. 
+The output is written to propKB.txt
+Query = (F(John) == Dave)
+STARTING INFERENCE
+Query = m
+peocessing one query
+q=m
+Running C2D (propositonal inference)
+Z = exp(5.545177444479562) = 255.99999999999994
+Z(query) = exp(4.852030263919617) = 127.99999999999997
+P(m) = exp(-0.6931471805599454) = 0.49999999999999994
+Elapsed time=0.633374793
+
+
+Parsing FOL sentence with Function Symbols!
+Processing file FunKB.txt
+Parsing expression with function symbols: ((F(Adam) == Dave) & (F(x) ~= x))
+Domain D = [Adam, Dave]
+Variables = {x}
+Relational KB x = (F(Adam, Dave) & ~F(x, x))
+CNF = (F(Adam, Dave) & ~F(x, x))
+Adding an arbitrary constant = Beth
+Adding another arbitrary constant = Lisa
+Terms =  {F(Dave), F(Adam), F(Lisa), F(Beth)}
+Parsing time = 0.028528928756713867
+Successfully parsed an expression. 
+The output is written to propKB.txt
+Query = ((F(John) == Adam) | (F(John) == Dave))
+STARTING INFERENCE
+Query = q v p
+processing several queries
+Running C2D (propositonal inference)
+Z = exp(5.545177444479562) = 255.99999999999994
+Z(query) = exp(4.852030263919617) = 127.99999999999997
+P(q) = exp(-0.6931471805599454) = 0.49999999999999994
+Running C2D (propositonal inference)
+Z = exp(5.545177444479562) = 255.99999999999994
+Z(query) = exp(4.852030263919617) = 127.99999999999997
+P(p) = exp(-0.6931471805599454) = 0.49999999999999994
+Elapsed time=0.652257545
+

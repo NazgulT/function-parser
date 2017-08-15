@@ -1,0 +1,161 @@
+predicate b 1 1
+predicate l 1 1
+predicate x 1 1
+predicate s 1 1
+predicate e 1 1
+predicate z 1 1
+predicate d 1 1
+predicate j 1 1
+predicate k 1 1
+predicate y 1 1
+predicate w7 1 1
+predicate i 1 1
+predicate t 1 1
+predicate c 1 1
+predicate m 1 1
+predicate u 1 1
+predicate v 1 1
+predicate n 1 1
+predicate a 1 1
+predicate x8 1 1
+predicate q 1 1
+predicate p 1 1
+predicate f 1 1
+predicate y9 1 1
+predicate w 1 1
+predicate r 1 1
+predicate g 1 1
+predicate z0 1 1
+predicate h 1 1
+predicate o 1 1
+predicate v6 1 1
+
+z
+!x v !z
+z
+!v v !u
+z
+!t v !s
+z
+!r v !u
+!q v p v !q v q
+q v !p v !q v q
+o v !q v q
+!q v p v p v q
+q v !p v p v q
+o v p v q
+!q v p v !q v !p
+q v !p v !q v !p
+o v !q v !p
+!q v p v p v !p
+q v !p v p v !p
+o v p v !p
+!q v p v !o
+q v !p v !o
+o v !o
+!n v m v !n v n
+n v !m v !n v n
+l v !n v n
+!n v m v m v n
+n v !m v m v n
+l v m v n
+!n v m v !n v !m
+n v !m v !n v !m
+l v !n v !m
+!n v m v m v !m
+n v !m v m v !m
+l v m v !m
+!n v m v !l
+n v !m v !l
+l v !l
+!k v j v !k v k
+k v !j v !k v k
+i v !k v k
+!k v j v j v k
+k v !j v j v k
+i v j v k
+!k v j v !k v !j
+k v !j v !k v !j
+i v !k v !j
+!k v j v j v !j
+k v !j v j v !j
+i v j v !j
+!k v j v !i
+k v !j v !i
+i v !i
+!h v g v !h v h
+h v !g v !h v h
+f v !h v h
+!h v g v g v h
+h v !g v g v h
+f v g v h
+!h v g v !h v !g
+h v !g v !h v !g
+f v !h v !g
+!h v g v g v !g
+h v !g v g v !g
+f v g v !g
+!h v g v !f
+h v !g v !f
+f v !f
+!x v t v !x v x
+x v !t v !x v x
+e v !x v x
+!x v t v t v x
+x v !t v t v x
+e v t v x
+!x v t v !x v !t
+x v !t v !x v !t
+e v !x v !t
+!x v t v t v !t
+x v !t v t v !t
+e v t v !t
+!x v t v !e
+x v !t v !e
+e v !e
+!d v c v !d v d
+d v !c v !d v d
+b v !d v d
+!d v c v c v d
+d v !c v c v d
+b v c v d
+!d v c v !d v !c
+d v !c v !d v !c
+b v !d v !c
+!d v c v c v !c
+d v !c v c v !c
+b v c v !c
+!d v c v !b
+d v !c v !b
+b v !b
+!a v z0 v !a v a
+a v !z0 v !a v a
+y9 v !a v a
+!a v z0 v z0 v a
+a v !z0 v z0 v a
+y9 v z0 v a
+!a v z0 v !a v !z0
+a v !z0 v !a v !z0
+y9 v !a v !z0
+!a v z0 v z0 v !z0
+a v !z0 v z0 v !z0
+y9 v z0 v !z0
+!a v z0 v !y9
+a v !z0 v !y9
+y9 v !y9
+!x8 v w7 v !x8 v x8
+x8 v !w7 v !x8 v x8
+v6 v !x8 v x8
+!x8 v w7 v w7 v x8
+x8 v !w7 v w7 v x8
+v6 v w7 v x8
+!x8 v w7 v !x8 v !w7
+x8 v !w7 v !x8 v !w7
+v6 v !x8 v !w7
+!x8 v w7 v w7 v !w7
+x8 v !w7 v w7 v !w7
+v6 v w7 v !w7
+!x8 v w7 v !v6
+x8 v !w7 v !v6
+v6 v !v6
+query d

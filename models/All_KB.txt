@@ -1,0 +1,22 @@
+((F(Sally) == Frank) | (F(Sally) == Fred)) & ((F(Sally) == x) --> (R == x))
+QUERY: ((R == Frank))
+QUERY: (F(Danny) == Frank)
+QUERY: ((R == Frank) | (R == John))
+QUERY: (F(Sally) == Danny)
+
+((F(Adam) == Dave) & (F(x) ~= x))
+QUERY: (F(Adam) == Dave)
+QUERY: (F(Dave) == Dave)
+QUERY: (F(John) == Dave)
+QUERY: ((F(John) == Adam) | ((F(John) == Dave))
+
+((F(x) ~= Adam) --> (M(x) ~= Beth))
+QUERY: (F(Carol) ~= Adam) --> (M(Carol) ~= Beth)
+QUERY: (M(Beth) == Beth)
+QUERY: (M(Adam) ~= Beth) | F(Adam) == Adam)
+
+(Student(x) --> (EmployeeOf(y) ~= x))
+QUERY: (Student(Adam))
+QUERY: ~Student(Adam)
+QUERY: S(Bob)
+QUERY: S(Adam) | E(Bob) == Adam

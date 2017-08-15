@@ -1,0 +1,2 @@
+S(Adam) & (S(x) --> (E(y) ~= x))
+QUERY: E(Bob) == Adam
