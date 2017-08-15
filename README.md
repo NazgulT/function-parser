@@ -43,13 +43,13 @@ It is important to put parentheses correctly. Remeber to always parenthesize fun
 
 Output format
 =============
-The XOR parser outputs resulting propositional model theory in CNF to the file named "PropKB.txt" in the /output directory. It can be viewed but it is advised not to change the name and the contents of the file once it has been generated since it is going to be processed by the WFOMC inference.
+The XOR parser outputs resulting propositional model theory in CNF to the file named "propKB.txt" in the /output directory. It can be viewed but it is advised not to change the name and the contents of the file once it has been generated since it is going to be processed by the WFOMC inference.
 
 WFOMC inference
 ===============
 
-Once the XOR parser produces output in propositional form and saves it into the "PropKB.txt" file in the correct format, the custom-code written in scala and saved as part of WFOMC project, invokes this file and processes it.   
-Be careful not to change the "PropKB.txt" contents, because the scala code looks for specific keywords. The code written for inference step is assembled using sbt into "forclift.jar". If one needs to modify inference steps, he should unpack this .jar file, and compile/assembly again using sbt.  
+Once the XOR parser produces output in propositional form and saves it into the "propKB.txt" file in the correct format, the custom-code written in scala and saved as part of WFOMC project, invokes this file and processes it.   
+Be careful not to change the "propKB.txt" contents, because the scala code looks for specific keywords. The code written for inference step is assembled using sbt into "forclift.jar". If one needs to modify inference steps, he should unpack this .jar file, and compile/assembly again using sbt.  
 
 External Dependencies
 =====================
