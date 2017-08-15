@@ -339,7 +339,7 @@ if __name__=="__main__":
     main(sys.argv[1:])
 
 
-
+#Possible expressions:
 #expression = expr("((F(Sally) == Frank) | (F(Sally) == Fred)) & ((F(Sally) ~= x) --> (R == x))")
 #expression = expr("(F(x) == Adam) --> (M(x) ~= Beth)")
 #query = expr("((F(Henry) == Bob) | (F(Sally) == Bob))")
