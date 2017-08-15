@@ -230,7 +230,7 @@ class defaultkeydict(collections.defaultdict):
         self[key] = result = self.default_factory(key)
         return result
 
-"""
+
 def first(iterable, default=None):
     "Return the first element of an iterable or the next element of a generator; or default."
     try:
@@ -239,7 +239,7 @@ def first(iterable, default=None):
         return default
     except TypeError:
         return next(iterable, default)
-"""
+
 """
 class hashabledict(dict):
     "Allows hashing by representing a dictionary as tuple of key:value pairs
