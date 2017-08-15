@@ -99,30 +99,6 @@ def to_cnf(s):
     s = move_not_inwards(s)  # Step 3
     return distribute_and_over_or(s)  # Step 4
 
-"""
-def eliminate_implications(s):
-    Change implications into equivalent form with only &, |, and ~ as logical operators.
-    s = expr(s)
-    print("s = {}".format(s))
-    if not s.args or is_symbol(s.op):
-        return s  # Atoms are unchanged.
-    args = list(map(eliminate_implications, s.args))
-    a, b = args[0], args[-1]
-    print("a = {}, b = {}".format(a,b))
-    if s.op == '-->':
-        return b | ~a
-    elif s.op == '<--':
-        return a | ~b
-    elif s.op == '<->':
-        return (a | ~b) & (b | ~a)
-    elif s.op == '^':
-        #assert len(args) == 2  # TODO: relax this restriction
-        print("s.op = {}".format(s.op))
-        return (a & ~b) | (~a & b)
-    else:
-        assert s.op in ('&', '|', '~', '==', '~=')
-        return Expr(s.op, *args)
-"""
 
 def eliminate_implications(s):
     """Change implications into equivalent form with only &, |, and ~ as logical operators."""
