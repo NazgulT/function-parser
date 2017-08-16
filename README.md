@@ -15,10 +15,12 @@ An example showing how these routines work in practice is shown in Notes.pdf att
 Usage
 =====
 
-To run the project one should run the "parser.sh" executable.
+To run the project one should run the "parser.sh" executable as follows:
 
 	$ ./parser.sh
 
+To access the full working project with related binaries compiled against the project version, please download the latest release i.e. currently it is v3.0 (August 2017).  
+  
 It is assumed that python3 is installed at /usr/bin/python3.
 
 Input format
@@ -39,7 +41,9 @@ Note:
   
 Important
 =========
-It is important to put parentheses correctly. Remeber to always parenthesize function symbols. 
+It is important to put parentheses correctly. Remember to always parenthesize function symbols.  
+  
+It is important to download the full working project with inference step included. Due to limited storage memory of master repository, the full project is stored in Release v3.0. It contains all necessary binaries and libraries along with everything that is in master. Download the project in .tar.gz, unpack, go to the folder and see Usage section for how to run it.
 
 Output format
 =============
